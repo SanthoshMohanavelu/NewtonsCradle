@@ -6606,10 +6606,10 @@ var decomp;
         options = options || {};
 
         slope *= 0.5;
-        var roof = (1 - (slope * 2)) * width;
+        var Box = (1 - (slope * 2)) * width;
         
         var x1 = width * slope,
-            x2 = x1 + roof,
+            x2 = x1 + Box,
             x3 = x2 + x1,
             verticesPath;
 
